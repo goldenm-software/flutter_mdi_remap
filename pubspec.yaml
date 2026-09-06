@@ -1,0 +1,28 @@
+name: flutter_mdi_remap
+description: "Shared Material Design Icons remap: a searchable, serializable MdiRemapIcon registry generated from flutter_material_design_icons, used across Layrz Flutter projects."
+version: 0.0.1
+homepage: https://github.com/goldenm-software/flutter_mdi_remap
+repository: https://github.com/goldenm-software/flutter_mdi_remap
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  windows:
+  web:
+
+environment:
+  sdk: ">=3.13.0 <4.0.0"
+  flutter: ">=3.47.0"
+
+dependencies:
+  flutter: { sdk: flutter }
+  flutter_material_design_icons: ^3.1.0+7447
+
+dev_dependencies:
+  flutter_test: { sdk: flutter }
+  flutter_lints: ^6.0.0
+  analyzer: ^10.2.0
+
+flutter:
