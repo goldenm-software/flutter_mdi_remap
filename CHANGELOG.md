@@ -1,3 +1,11 @@
+## 1.0.0
+
+* First stable release of `flutter_mdi_remap`.
+* `MdiRemapIcon` type carrying a stable `name` (`mdi-...`), searchable `tags`, and the renderable `IconData`.
+* Full generated registry of all 7,447 Material Design Icons (`iconMapping`, `MdiRemapIconsClasses`).
+* Search and lookup API: `allMdiRemapIcons()`, `findMdiRemapIconByName()`, `searchMdiRemapIcons()` (case-insensitive match over name and tags).
+* Icon-registry generator (`tool/generate_icons.dart`, `make icons`) that regenerates the registry from `flutter_material_design_icons`.
+
 ## 0.0.1
 
 * Initial release.
