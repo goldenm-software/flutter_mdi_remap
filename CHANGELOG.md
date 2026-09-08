@@ -1,3 +1,9 @@
+# Changelog
+
+## 1.0.1
+
+- Changed constraints to `flutter: ">=3.44.0 <4.0.0"` and `sdk: ">=3.12.0 <4.0.0"` to support Flutter 3.44 and Dart 3.0.
+
 ## 1.0.0
 
 * First stable release of `flutter_mdi_remap`.
